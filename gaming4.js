@@ -6,7 +6,7 @@ const button = document.getElementById('pepega');
 
 const num11 = Math.floor(Math.random() * 12) + 1;
 const num22 = Math.floor(Math.random() * 12) + 1;
-awnser.textContent = num11 - num22;
+awnser.textContent = num11 / num22;
 
 num1.textContent = num11;
 num2.textContent = num22;
