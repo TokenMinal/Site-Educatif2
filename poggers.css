@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.red{
+	background-color: red;
+}
+.width{
+	width: 100%;
+}
+.heith{
+	height: 969px;
+}
+.font50px{
+	font-size: 50px;
+}
+.verticalcenter{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.textcenter{
+	text-align: center;
+}
+input{	
+	width: 50%;
+	height: 50px;
+	font-size: 150%;
+}
