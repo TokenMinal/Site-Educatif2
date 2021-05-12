@@ -53,10 +53,14 @@ function check() {
 		score += 1;
 		score2.textContent = score;
 		localStorage.setItem('score', score);
-		window.location.reload();
+		setTimeout(function() {
+			window.location.reload();
+		}, 1000);
 	}
 	else if (input.value !== awnser.textContent) {
 		awnserb.style.display = 'block';
-		window.location.reload();
+		setTimeout(function() {
+			window.location.reload();
+		}, 1000);
 	}
 }
