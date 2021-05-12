@@ -20,6 +20,8 @@ const score2 = document.getElementById('score');
 const num1 = document.getElementById('pog');
 const num2 = document.getElementById('pog2');
 const awnser = document.getElementById('awnser');
+const awnserg = document.getElementById('awnserg');
+const awnserb = document.getElementById('awnserb');
 const input = document.getElementById('poggers');
 const button = document.getElementById('pepega');
 const button2 = document.getElementById('pepega2');
@@ -33,33 +35,28 @@ num2.textContent = num22;
 let score = parseInt(localStorage.getItem('score'));
 // enter go brrrrr
 window.addEventListener('keydown', (e) => {
-	if (e.key === 'Enter' && input.value == awnser.textContent) {
-		awnser.textContent = 'gaming';
-		score += 1;
-		score2.textContent = score;
-		localStorage.setItem('score', score);
-		window.location.reload();
-	}
-	else if (e.key === 'Enter' && input.value !== awnser.textContent) {
-		awnser.textContent = 'anger, hatred, malice if youre so enclined';
-		window.location.reload();
+	if (e.key === 'Enter') {
+		check();
 	}
 });
 // button go brrr
 button.addEventListener('click', () => {
+	check();
+});
+button2.addEventListener('click', () => {
+	localStorage.setItem('score', 0);
+	window.location.reload();
+});
+function check() {
 	if (input.value == awnser.textContent) {
-		awnser.textContent = 'gaming';
+		awnserg.style.display = 'block';
 		score += 1;
 		score2.textContent = score;
 		localStorage.setItem('score', score);
 		window.location.reload();
 	}
 	else if (input.value !== awnser.textContent) {
-		awnser.textContent = 'anger, hatred, malice if youre so enclined';
+		awnserb.style.display = 'block';
 		window.location.reload();
 	}
-});
-button2.addEventListener('click', () => {
-	localStorage.setItem('score', 0);
-	window.location.reload();
-});
+}

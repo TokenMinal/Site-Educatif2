@@ -2,7 +2,14 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	color: white;
 }
+body {
+	background-image: url('wo.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+  }
 .red {
 	background-color: red;
 }
@@ -20,6 +27,9 @@
 }
 .orange{
 	background-color: orange;
+}
+.green{
+	background-color: green;
 }
 .width{
 	width: 100%;
@@ -43,6 +53,7 @@ input{
 	width: 50%;
 	height: 50px;
 	font-size: 150%;
+	color: black;
 }
 .width40{
 	width: 400px;
@@ -54,6 +65,12 @@ input{
 	width: 100%;
 }
 .heith400{
+	height: 150px;
+}
+.width50{
+	width: 50%;
+}
+.heith50{
 	height: 150px;
 }
 /* Add a black background color to the top navigation */
@@ -90,4 +107,19 @@ input{
 }
 .displaynone{
 	display: none;
+}
+.button{
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor:pointer;
+}
+.corner{
+		border-radius: 25px;
+		padding: 20px;
 }
