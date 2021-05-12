@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>quiz</title>
-	<link rel="stylesheet" href="poggers.css">
+	<link rel="stylesheet" href="poggers.css" />
 </head>
 <body>
-	<div class="width heith">	
-		<p class="font50px verticalcenter textcenter"><span id="pog">gougoug</span> <span>-</span> <span id="pog2">gougoug</span></p>
-		<p class="font50px verticalcenter textcenter" id = "awnser"></p>
-		<input class="input verticalcenter" type="number" id="poggers">
-		<button class="font50px verticalcenter textcenter width40 heith40" id="pepega"></button>
+	<div class="topnav">
+		<a class="active" href="#home">Home</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+	</div>
+	<div class="heith400 width400 yellow">
+		<div class="float-left">
+			<p class="font50px">score:<span id="score"></span></p>
+		</div>
+		<div class="float-right">
+			<button class="width40 heith40" id="pepega2">reset score</button>
+			<button class="width40 heith40" id="pepega">ready</button>
+		</div>
+	</div>
+		<div class="float left orange width400 heith400">
+			<p class="font50px verticalcenter textcenter ">
+				<span id="pog">gougoug</span>
+				<span>-</span>
+				<span id="pog2">gougoug</span>
+			</p>
+		</div>
+	<div class="float-left pink heith400 width400 displaynone">
+		<p class="font50px verticalcenter textcenter" id="awnser"></p>
+	</div>
+	<div class="float-left heith400 width400 blue">
+		<input class="input verticalcenter" type="number" id="poggers" />
 	</div>
 	<script src="gaming2.js"></script>
 </body>
