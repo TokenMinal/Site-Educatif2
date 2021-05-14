@@ -4,12 +4,36 @@
 	padding: 0;
 	color: white;
 }
-body {
+.body1 {
 	background-image: url('wo.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
-  }
+}
+.body2 {
+	background-image: url('wooo.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.body3 {
+	background-image: url('613171-Elysium_Hades_Header.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.body4 {
+	background-image: url('sunrise_Hades_Game_landscape-1987809.jpg!d.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.body5 {
+	background-image: url('Screenshot_1.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
 .red {
 	background-color: red;
 }
@@ -118,6 +142,28 @@ input{
 	display: inline-block;
 	font-size: 16px;
 	cursor:pointer;
+	margin-left: auto;
+    margin-right: auto;
+}
+.button2{
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 40px;
+	cursor:pointer;
+	margin-left: auto;
+    margin-right: auto;
+	border-radius: 25px;
+}
+.buttondiv{
+	height: 10em;
+	display: flex;
+	align-items: center;
+	justify-content: center
 }
 .corner{
 		border-radius: 25px;
